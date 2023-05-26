@@ -477,6 +477,76 @@ a.current-page {
   background: #31d0aa;
 }
 
+.subscribe {
+  margin-left: auto;
+}
+
+.subscribe-text {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+
+.subscribe-form {
+  display: flex;
+}
+
+.subscribe-input {
+  background-color: transparent;
+  border: 1px solid var(--secondary-color);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  height: 40px;
+  width: 264px;
+  margin-right: 24px;
+  color: var(--secondary-color);
+}
+
+.subscribe-input::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: inherit;
+}
+
+.subscribe-wrapper {
+  position: relative;
+}
+
+.subscribe-submit {
+  width: 165px;
+  height: 40px;
+  text-align: start;
+  padding: 8px 24px;
+  background: var(--accent-color);
+  border-radius: 4px;
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+
+.subscribe-icon {
+  position: absolute;
+  top: 50%;
+  right: 24px;
+  fill: var(--secondary-color);
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
 .backdrop {
   position: fixed;
   top: 0;
