@@ -603,14 +603,6 @@ a.current-page {
   margin-bottom: 4px;
 }
 
-.signup_form-user_info:focus-within {
-  fill: var(--accent-color);
-}
-
-.signup_form-user_info:last-child {
-  margin-bottom: 16px;
-}
-
 .signup_form-desc_icon {
   width: 16px;
   height: 16px;
@@ -647,6 +639,11 @@ a.current-page {
 
 .signup_form:focus-within .signup_form-icon {
   fill: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.signup_form-field {
+  margin-bottom: 16px;
 }
 
 .signup_form-user_desc {
