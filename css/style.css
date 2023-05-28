@@ -481,6 +481,10 @@ a.current-page {
   margin-left: auto;
 }
 
+.subscribe-form {
+  display: flex;
+}
+
 .subscribe-text {
   margin-top: 0;
   margin-bottom: 16px;
@@ -489,11 +493,10 @@ a.current-page {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-color);
-  margin-right: 24px;
 }
 
-.subscribe-form {
-  display: flex;
+.subscribe-input-wrapper {
+  margin-right: 24px;
 }
 
 .subscribe-input {
