@@ -499,14 +499,20 @@
               placeholder="Text input"
             ></textarea>
           </div>
-          <label class="signup_form-desc">
-            <input type="checkbox" class="signup_form-checkbox" />
-            <span class="signup_form-desc_icon"></span>
-            <span class="signup_form-title"
-              >I accept the terms and conditions of the
+          <div class="signup_form-desc">
+            <input
+              type="checkbox"
+              class="signup_form-checkbox"
+              id="user-privacy"
+              value="true"
+              name="user-privacy"
+              visually-hidden
+            />
+            <label for="user-privacy" class="user-privacy">
+              I accept the terms and conditions of the
               <a href="">Privacy Policy</a>
-            </span>
-          </label>
+            </label>
+          </div>
           <button type="submit" class="signup_form-btn">Send</button>
         </form>
         <button type="button" class="modal-close-btn" data-modal-close>
