@@ -574,6 +574,10 @@ a.current-page {
   padding-left: 24px;
 }
 
+.bug {
+  margin: 0;
+}
+
 .modal-text {
   margin-top: 0;
   margin-bottom: 16px;
