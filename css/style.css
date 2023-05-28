@@ -677,6 +677,7 @@ a.current-page {
 .signup_form-checkbox {
   position: absolute;
   appearance: none;
+  visibility: hidden;
 }
 
 .user-privacy {
