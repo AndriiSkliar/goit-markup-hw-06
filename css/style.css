@@ -663,7 +663,7 @@ a.current-page {
 }
 
 .signup_form-textarea {
-  margin-bottom: 26px;
+  margin-bottom: 16px;
 }
 
 .signup_form-textarea:focus-within .signup_form-user_desc {
@@ -674,15 +674,15 @@ a.current-page {
   margin-bottom: 24px;
 }
 
-.signup_form-desc:focus-within .user-privacy-text {
+.visually-hidden {
+  visibility: hidden;
+}
+
+.signup_form-checkbox:checked + .user-privacy {
   background-color: var(--btn-color);
   border: none;
   fill: var(--secondary-color);
   border-color: var(--btn-color);
-}
-
-.signup_form-checkbox {
-  visibility: hidden;
 }
 
 .user-privacy {
@@ -693,18 +693,24 @@ a.current-page {
 }
 
 .user-privacy-text {
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+  display: inline-flex;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  fill: transparent;
+  margin-right: 8px;
 }
 
 .user-privacy-link {
   color: var(--accent-color);
+  margin-left: 3px;
+}
+
+.user-privacy-icon {
+  cursor: pointer;
 }
 
 .signup_form-btn {
