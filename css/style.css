@@ -589,9 +589,12 @@ a.current-page {
   color: var(--header-color);
 }
 
+.signup_form {
+  margin-bottom: 8px;
+}
+
 .signup_form-user_info {
   display: block;
-  margin-bottom: 8px;
 }
 
 .signup_form-user_info:focus-within {
