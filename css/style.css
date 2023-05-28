@@ -646,10 +646,6 @@ a.current-page {
   border-color: var(--accent-color);
 }
 
-.signup_form-textarea {
-  margin-bottom: 16px;
-}
-
 .signup_form-user_desc {
   width: 100%;
   height: 120px;
@@ -675,16 +671,7 @@ a.current-page {
 }
 
 .signup_form-checkbox {
-  position: absolute;
-  appearance: none;
   visibility: hidden;
-}
-
-.signup_form-checkbox:checked ~ .user-privacy-text {
-  background-color: var(--btn-color);
-  border: none;
-  fill: var(--secondary-color);
-  border-color: var(--btn-color);
 }
 
 .user-privacy {
@@ -703,6 +690,13 @@ a.current-page {
   align-items: center;
   justify-content: center;
   fill: transparent;
+}
+
+.signup_form-checkbox:focus-within ~ .user-privacy-text {
+  background-color: var(--btn-color);
+  border: none;
+  fill: var(--secondary-color);
+  border-color: var(--btn-color);
 }
 
 .user-privacy-link {
