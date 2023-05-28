@@ -676,9 +676,10 @@ a.current-page {
 
 .visually-hidden {
   visibility: hidden;
+  appearance: none;
 }
 
-.signup_form-checkbox:checked + .user-privacy {
+.signup_form-checkbox:checked + .user-privacy .user-privacy-text {
   background-color: var(--btn-color);
   border: none;
   fill: var(--secondary-color);
@@ -702,6 +703,7 @@ a.current-page {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   margin-right: 8px;
+  cursor: pointer;
 }
 
 .user-privacy-link {
