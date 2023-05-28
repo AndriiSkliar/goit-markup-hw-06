@@ -510,22 +510,17 @@ a.current-page {
   height: 40px;
   width: 264px;
   color: var(--secondary-color);
-}
-
-.subscribe-input::placeholder {
-  font-weight: 400;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
+}
+
+.subscribe-input::placeholder {
   color: inherit;
 }
 
-.subscribe-wrapper {
-  position: relative;
-}
-
 .subscribe-submit {
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   text-align: start;
   padding: 8px 24px;
@@ -539,14 +534,14 @@ a.current-page {
   letter-spacing: 0.04em;
   color: var(--secondary-color);
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .subscribe-icon {
-  position: absolute;
-  top: 50%;
-  right: 24px;
+  margin-left: 16px;
   fill: var(--secondary-color);
-  transform: translateY(-50%);
   cursor: pointer;
 }
 
