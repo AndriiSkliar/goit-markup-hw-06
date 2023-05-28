@@ -662,12 +662,23 @@ a.current-page {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.signup_form-textarea {
+  margin-bottom: 26px;
+}
+
 .signup_form-textarea:focus-within .signup_form-user_desc {
   border-color: var(--accent-color);
 }
 
 .signup_form-desc {
   margin-bottom: 24px;
+}
+
+.signup_form-desc:focus-within .user-privacy-text {
+  background-color: var(--btn-color);
+  border: none;
+  fill: var(--secondary-color);
+  border-color: var(--btn-color);
 }
 
 .signup_form-checkbox {
@@ -690,13 +701,6 @@ a.current-page {
   align-items: center;
   justify-content: center;
   fill: transparent;
-}
-
-.signup_form-checkbox:focus-within ~ .user-privacy-text {
-  background-color: var(--btn-color);
-  border: none;
-  fill: var(--secondary-color);
-  border-color: var(--btn-color);
 }
 
 .user-privacy-link {
